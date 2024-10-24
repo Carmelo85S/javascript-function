@@ -17,10 +17,10 @@ let username;
 function isValidPassword(password, username){
 
     //check the condition password must contain at least 8 characters
-    if(password.length >= 8 && +
+    if(password.length >= 8 && 
     
     //password must not contains username
-    !password.includes(username) && +
+    !password.includes(username) && 
     
     //password must not contains spaces
     !password.includes(" ")){
